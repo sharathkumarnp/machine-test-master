@@ -1,6 +1,6 @@
 # machine-test-master
 Terraform machine test.
-The proposed infrastructure has been designed on Amazon Web Services and the network diagram given above describes the proposed infrastructure.
+The proposed infrastructure has been designed on Amazon Web Services.
 The solution consists of a high availability PHP application launched on Elastic Beanstalk with an external Amazon RDS database with the multi AZ feature enabled.
 The infrastructure is hosted on a single VPC with three subnets.
 One subnet is a public subnet and the other two subnets are private subnets.
