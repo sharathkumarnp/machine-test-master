@@ -43,7 +43,7 @@ resource "aws_elastic_beanstalk_environment" "production" {
 	setting {
 		namespace = "aws:ec2:vpc"
 		name      = "VPCId"
-		value     = "${aws_vpc.techies_vpc.id}"
+		value     = "${aws_vpc.sharath_vpc.id}"
 	}
 
 	setting {
